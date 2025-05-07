@@ -71,7 +71,7 @@ SELECT * FROM DangKy
 SELECT * FROM HoaDon
 SELECT * FROM ChiTietHoaDon
 
--- Delete data 
+-- xóa data cũ
 DELETE FROM ChiTietHoaDon;
 DELETE FROM HoaDon;
 DELETE FROM DangKy;
@@ -79,7 +79,11 @@ DELETE FROM Ban;
 DELETE FROM Menu;
 DELETE FROM NhanVien;
 
--- Insert data for NhanVien table
+--fix tk admin 
+UPDATE DangKy SET ChucVu = 0 WHERE TenDK = 'admin';
+UPDATE DangKy SET ChucVu = 1 WHERE TenDK <> 'admin';
+
+--insert into nhanvien
 INSERT INTO NhanVien (MaNV, TENNV, GIOITINH, SDT, HIENTHI)
 VALUES 
 ('NV001', N'Nguyễn Văn A', 1, '0123456789', 1),
@@ -88,7 +92,7 @@ VALUES
 ('NV004', N'Phạm Thị D', 0, '0987654320', 1),
 ('NV005', N'Hoàng Văn E', 1, '0123456781', 1);
 
--- Insert data for Menu table
+--insert into menu
 INSERT INTO Menu (TENMON, GIA, LOAIMON, HINHANH, HIENTHI)
 VALUES 
 (N'Cà phê đen', 25000, N'Cà phê', '', 1),
@@ -97,7 +101,7 @@ VALUES
 (N'Bánh tiramisu', 35000, N'Bánh ngọt', '', 1),
 (N'Bánh mì sandwich', 25000, N'Bánh mặn', '', 1);
 
--- Insert data for Ban table
+--insert into ban
 INSERT INTO Ban (SOBAN, TINHTRANG)
 VALUES 
 (1, N'Trống'),
@@ -106,7 +110,7 @@ VALUES
 (4, N'Đang sử dụng'),
 (5, N'Trống');
 
--- Insert data for DangKy table
+--insert into dangky
 INSERT INTO DangKy (TenDK, MatKhau, ChucVu, MaNV)
 VALUES 
 ('admin', 'admin123', 1, 'NV001'),
@@ -115,7 +119,7 @@ VALUES
 ('nhanvien3', 'nv123', 0, 'NV004'),
 ('nhanvien4', 'nv123', 0, 'NV005');
 
--- Insert data for HoaDon table
+--insert into hoadon
 INSERT INTO HoaDon (SOHOADON, NGAYDAT, MaNV, TONGTIEN)
 VALUES 
 (1, GETDATE(), 'NV001', 75000),
@@ -124,7 +128,7 @@ VALUES
 (4, GETDATE(), 'NV004', 55000),
 (5, GETDATE(), 'NV005', 80000);
 
--- Insert data for ChiTietHoaDon table
+--insert into chitiethoadonchitiethoadon
 INSERT INTO ChiTietHoaDon (SOHOADON, MenuID, SOLUONG)
 VALUES 
 (1, 1, 2),  -- 2 cà phê đen
