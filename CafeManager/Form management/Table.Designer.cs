@@ -81,6 +81,7 @@
             // 
             // pnTableBottom
             // 
+            this.pnTableBottom.BackColor = System.Drawing.Color.PeachPuff;
             this.pnTableBottom.Controls.Add(this.pnBTFill);
             this.pnTableBottom.Controls.Add(this.pnTBRight);
             this.pnTableBottom.Dock = System.Windows.Forms.DockStyle.Bottom;
@@ -202,6 +203,7 @@
             // 
             // lbTable
             // 
+            this.lbTable.BackColor = System.Drawing.Color.PeachPuff;
             this.lbTable.Dock = System.Windows.Forms.DockStyle.Fill;
             this.lbTable.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbTable.ForeColor = System.Drawing.Color.Tomato;
@@ -329,6 +331,7 @@
             // menuStrip1
             // 
             this.menuStrip1.AutoSize = false;
+            this.menuStrip1.BackColor = System.Drawing.Color.PeachPuff;
             this.menuStrip1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.menuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -381,6 +384,7 @@
             // 
             // tsName
             // 
+            this.tsName.BackColor = System.Drawing.Color.PeachPuff;
             this.tsName.CausesValidation = false;
             this.tsName.Font = new System.Drawing.Font("MV Boli", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tsName.ForeColor = System.Drawing.Color.Red;
@@ -443,6 +447,7 @@
             // flbTable
             // 
             this.flbTable.AutoScroll = true;
+            this.flbTable.BackColor = System.Drawing.Color.PeachPuff;
             this.flbTable.Dock = System.Windows.Forms.DockStyle.Fill;
             this.flbTable.Location = new System.Drawing.Point(0, 0);
             this.flbTable.Name = "flbTable";

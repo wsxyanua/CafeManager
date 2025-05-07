@@ -87,6 +87,7 @@
             // menuStrip1
             // 
             this.menuStrip1.AutoSize = false;
+            this.menuStrip1.BackColor = System.Drawing.Color.PeachPuff;
             this.menuStrip1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.menuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -139,6 +140,7 @@
             // 
             // tsName
             // 
+            this.tsName.BackColor = System.Drawing.Color.PeachPuff;
             this.tsName.CausesValidation = false;
             this.tsName.Font = new System.Drawing.Font("MV Boli", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tsName.ForeColor = System.Drawing.Color.Red;
@@ -226,6 +228,7 @@
             // 
             // pnP2
             // 
+            this.pnP2.BackColor = System.Drawing.Color.PeachPuff;
             this.pnP2.Controls.Add(this.btPSearch);
             this.pnP2.Controls.Add(this.btPPay);
             this.pnP2.Controls.Add(this.txtPSum);
@@ -306,6 +309,7 @@
             // 
             // lbPay
             // 
+            this.lbPay.BackColor = System.Drawing.Color.PeachPuff;
             this.lbPay.Dock = System.Windows.Forms.DockStyle.Fill;
             this.lbPay.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbPay.ForeColor = System.Drawing.Color.Tomato;
@@ -318,6 +322,7 @@
             // 
             // pnOrder
             // 
+            this.pnOrder.BackColor = System.Drawing.Color.PeachPuff;
             this.pnOrder.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.pnOrder.Controls.Add(this.pnO4);
             this.pnOrder.Controls.Add(this.pnO3);
@@ -332,6 +337,7 @@
             // 
             // pnO4
             // 
+            this.pnO4.BackColor = System.Drawing.Color.PeachPuff;
             this.pnO4.Controls.Add(this.txtONumber);
             this.pnO4.Controls.Add(this.lbONumber);
             this.pnO4.Controls.Add(this.btOPut);
@@ -370,6 +376,7 @@
             // 
             // pnO3
             // 
+            this.pnO3.BackColor = System.Drawing.Color.PeachPuff;
             this.pnO3.Controls.Add(this.nudOQuantity);
             this.pnO3.Controls.Add(this.lbOQuantity);
             this.pnO3.Dock = System.Windows.Forms.DockStyle.Top;
@@ -397,6 +404,7 @@
             // 
             // pnO2
             // 
+            this.pnO2.BackColor = System.Drawing.Color.PeachPuff;
             this.pnO2.Controls.Add(this.txtOPrice);
             this.pnO2.Controls.Add(this.lbOPrice);
             this.pnO2.Dock = System.Windows.Forms.DockStyle.Top;
@@ -425,6 +433,7 @@
             // 
             // pnO1
             // 
+            this.pnO1.BackColor = System.Drawing.Color.PeachPuff;
             this.pnO1.Controls.Add(this.txtOName);
             this.pnO1.Controls.Add(this.lbOName);
             this.pnO1.Dock = System.Windows.Forms.DockStyle.Top;
@@ -462,6 +471,7 @@
             // 
             // lbOrder
             // 
+            this.lbOrder.BackColor = System.Drawing.Color.PeachPuff;
             this.lbOrder.Dock = System.Windows.Forms.DockStyle.Fill;
             this.lbOrder.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbOrder.ForeColor = System.Drawing.Color.Tomato;
@@ -475,6 +485,7 @@
             // flpMenu
             // 
             this.flpMenu.AutoScroll = true;
+            this.flpMenu.BackColor = System.Drawing.Color.PeachPuff;
             this.flpMenu.Dock = System.Windows.Forms.DockStyle.Fill;
             this.flpMenu.Location = new System.Drawing.Point(0, 38);
             this.flpMenu.Name = "flpMenu";

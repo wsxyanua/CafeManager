@@ -47,7 +47,7 @@
             // 
             // pnTop
             // 
-            this.pnTop.BackColor = System.Drawing.Color.Pink;
+            this.pnTop.BackColor = System.Drawing.Color.PeachPuff;
             this.pnTop.Controls.Add(this.lbNameShop);
             this.pnTop.Controls.Add(this.pictureBox1);
             this.pnTop.Dock = System.Windows.Forms.DockStyle.Top;
@@ -61,7 +61,7 @@
             // 
             this.lbNameShop.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.lbNameShop.Font = new System.Drawing.Font("MV Boli", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbNameShop.ForeColor = System.Drawing.Color.Red;
+            this.lbNameShop.ForeColor = System.Drawing.Color.Black;
             this.lbNameShop.Location = new System.Drawing.Point(0, 147);
             this.lbNameShop.Name = "lbNameShop";
             this.lbNameShop.Size = new System.Drawing.Size(800, 37);
@@ -82,7 +82,7 @@
             // 
             // pnFill
             // 
-            this.pnFill.BackColor = System.Drawing.Color.Pink;
+            this.pnFill.BackColor = System.Drawing.Color.PeachPuff;
             this.pnFill.Controls.Add(this.btSignUp);
             this.pnFill.Controls.Add(this.rbPosition2);
             this.pnFill.Controls.Add(this.lbPassword);
@@ -93,7 +93,7 @@
             this.pnFill.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pnFill.Location = new System.Drawing.Point(0, 184);
             this.pnFill.Name = "pnFill";
-            this.pnFill.Size = new System.Drawing.Size(800, 266);
+            this.pnFill.Size = new System.Drawing.Size(800, 276);
             this.pnFill.TabIndex = 1;
             // 
             // btSignUp
@@ -101,7 +101,7 @@
             this.btSignUp.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btSignUp.Location = new System.Drawing.Point(344, 210);
             this.btSignUp.Name = "btSignUp";
-            this.btSignUp.Size = new System.Drawing.Size(129, 44);
+            this.btSignUp.Size = new System.Drawing.Size(148, 44);
             this.btSignUp.TabIndex = 16;
             this.btSignUp.Text = "Đăng Nhập";
             this.btSignUp.UseVisualStyleBackColor = true;
@@ -111,7 +111,7 @@
             // 
             this.rbPosition2.AutoSize = true;
             this.rbPosition2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rbPosition2.ForeColor = System.Drawing.Color.Red;
+            this.rbPosition2.ForeColor = System.Drawing.Color.Black;
             this.rbPosition2.Location = new System.Drawing.Point(473, 158);
             this.rbPosition2.Name = "rbPosition2";
             this.rbPosition2.Size = new System.Drawing.Size(125, 29);
@@ -124,7 +124,7 @@
             // 
             this.lbPassword.AutoSize = true;
             this.lbPassword.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbPassword.ForeColor = System.Drawing.Color.Red;
+            this.lbPassword.ForeColor = System.Drawing.Color.Black;
             this.lbPassword.Location = new System.Drawing.Point(199, 93);
             this.lbPassword.Name = "lbPassword";
             this.lbPassword.Size = new System.Drawing.Size(103, 25);
@@ -135,7 +135,7 @@
             // 
             this.rbPosition1.AutoSize = true;
             this.rbPosition1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rbPosition1.ForeColor = System.Drawing.Color.Red;
+            this.rbPosition1.ForeColor = System.Drawing.Color.Black;
             this.rbPosition1.Location = new System.Drawing.Point(288, 158);
             this.rbPosition1.Name = "rbPosition1";
             this.rbPosition1.Size = new System.Drawing.Size(89, 29);
@@ -148,7 +148,7 @@
             // 
             this.lbName.AutoSize = true;
             this.lbName.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbName.ForeColor = System.Drawing.Color.Red;
+            this.lbName.ForeColor = System.Drawing.Color.Black;
             this.lbName.Location = new System.Drawing.Point(145, 40);
             this.lbName.Name = "lbName";
             this.lbName.Size = new System.Drawing.Size(157, 25);
@@ -175,7 +175,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(800, 460);
             this.Controls.Add(this.pnFill);
             this.Controls.Add(this.pnTop);
             this.Name = "Login";

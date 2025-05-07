@@ -239,5 +239,10 @@ namespace CafeManager.Form_management
             formStatistical.Show();
             this.Hide();
         }
+
+        private void pnR2_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }

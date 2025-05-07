@@ -66,6 +66,7 @@
             // menuStrip1
             // 
             this.menuStrip1.AutoSize = false;
+            this.menuStrip1.BackColor = System.Drawing.Color.PeachPuff;
             this.menuStrip1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.menuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -119,6 +120,7 @@
             // 
             // tsName
             // 
+            this.tsName.BackColor = System.Drawing.Color.PeachPuff;
             this.tsName.CausesValidation = false;
             this.tsName.Font = new System.Drawing.Font("MV Boli", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tsName.ForeColor = System.Drawing.Color.Red;
@@ -179,6 +181,7 @@
             // 
             // lbStatistical
             // 
+            this.lbStatistical.BackColor = System.Drawing.Color.PeachPuff;
             this.lbStatistical.Dock = System.Windows.Forms.DockStyle.Fill;
             this.lbStatistical.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbStatistical.ForeColor = System.Drawing.Color.Tomato;
@@ -191,6 +194,7 @@
             // 
             // pn2
             // 
+            this.pn2.BackColor = System.Drawing.Color.PeachPuff;
             this.pn2.Controls.Add(this.pn1Right);
             this.pn2.Controls.Add(this.pn1Left);
             this.pn2.Dock = System.Windows.Forms.DockStyle.Top;
@@ -201,6 +205,7 @@
             // 
             // pn1Right
             // 
+            this.pn1Right.BackColor = System.Drawing.Color.PeachPuff;
             this.pn1Right.Controls.Add(this.btSearch);
             this.pn1Right.Controls.Add(this.dtpStatistical);
             this.pn1Right.Dock = System.Windows.Forms.DockStyle.Right;
@@ -229,6 +234,7 @@
             // 
             // pn1Left
             // 
+            this.pn1Left.BackColor = System.Drawing.Color.PeachPuff;
             this.pn1Left.Controls.Add(this.cbStatistical);
             this.pn1Left.Dock = System.Windows.Forms.DockStyle.Left;
             this.pn1Left.Location = new System.Drawing.Point(0, 0);
@@ -268,6 +274,7 @@
             // 
             // pn4
             // 
+            this.pn4.BackColor = System.Drawing.Color.PeachPuff;
             this.pn4.Controls.Add(this.lbNumber);
             this.pn4.Controls.Add(this.lbSum);
             this.pn4.Dock = System.Windows.Forms.DockStyle.Bottom;

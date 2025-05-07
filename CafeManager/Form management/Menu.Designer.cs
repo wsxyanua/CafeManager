@@ -68,6 +68,7 @@
             // menuStrip1
             // 
             this.menuStrip1.AutoSize = false;
+            this.menuStrip1.BackColor = System.Drawing.Color.PeachPuff;
             this.menuStrip1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.menuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -120,6 +121,7 @@
             // 
             // tsName
             // 
+            this.tsName.BackColor = System.Drawing.Color.PeachPuff;
             this.tsName.CausesValidation = false;
             this.tsName.Font = new System.Drawing.Font("MV Boli", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tsName.ForeColor = System.Drawing.Color.Red;
@@ -172,6 +174,7 @@
             // 
             // gbInfMenu
             // 
+            this.gbInfMenu.BackColor = System.Drawing.Color.PeachPuff;
             this.gbInfMenu.Controls.Add(this.cbShow);
             this.gbInfMenu.Controls.Add(this.lbName);
             this.gbInfMenu.Controls.Add(this.btFixMenu);
@@ -364,6 +367,7 @@
             // 
             // lbMenu
             // 
+            this.lbMenu.BackColor = System.Drawing.Color.PeachPuff;
             this.lbMenu.Dock = System.Windows.Forms.DockStyle.Fill;
             this.lbMenu.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbMenu.ForeColor = System.Drawing.Color.Tomato;

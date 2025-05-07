@@ -91,6 +91,7 @@
             // menuStrip1
             // 
             this.menuStrip1.AutoSize = false;
+            this.menuStrip1.BackColor = System.Drawing.Color.PeachPuff;
             this.menuStrip1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.menuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -144,6 +145,7 @@
             // 
             // tsName
             // 
+            this.tsName.BackColor = System.Drawing.Color.PeachPuff;
             this.tsName.CausesValidation = false;
             this.tsName.Font = new System.Drawing.Font("MV Boli", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tsName.ForeColor = System.Drawing.Color.Red;
@@ -195,6 +197,7 @@
             // 
             // pnRight
             // 
+            this.pnRight.BackColor = System.Drawing.Color.PeachPuff;
             this.pnRight.Controls.Add(this.pn8);
             this.pnRight.Controls.Add(this.pn6);
             this.pnRight.Controls.Add(this.pn5);
@@ -210,6 +213,7 @@
             // 
             // pn8
             // 
+            this.pn8.BackColor = System.Drawing.Color.PeachPuff;
             this.pn8.Controls.Add(this.pbDelete);
             this.pn8.Controls.Add(this.pbRepair);
             this.pn8.Controls.Add(this.pbAdd);
@@ -254,6 +258,7 @@
             // 
             // pn6
             // 
+            this.pn6.BackColor = System.Drawing.Color.PeachPuff;
             this.pn6.Controls.Add(this.cbShow);
             this.pn6.Controls.Add(this.lbShow);
             this.pn6.Dock = System.Windows.Forms.DockStyle.Top;
@@ -288,6 +293,7 @@
             // 
             // pn5
             // 
+            this.pn5.BackColor = System.Drawing.Color.PeachPuff;
             this.pn5.Controls.Add(this.txtPhone);
             this.pn5.Controls.Add(this.lbPhone);
             this.pn5.Dock = System.Windows.Forms.DockStyle.Top;
@@ -317,6 +323,7 @@
             // 
             // pn4
             // 
+            this.pn4.BackColor = System.Drawing.Color.PeachPuff;
             this.pn4.Controls.Add(this.rbSex2);
             this.pn4.Controls.Add(this.rbSex1);
             this.pn4.Controls.Add(this.lbSex);
@@ -364,6 +371,7 @@
             // 
             // pn3
             // 
+            this.pn3.BackColor = System.Drawing.Color.PeachPuff;
             this.pn3.Controls.Add(this.txtName);
             this.pn3.Controls.Add(this.lbName);
             this.pn3.Dock = System.Windows.Forms.DockStyle.Top;
@@ -393,6 +401,7 @@
             // 
             // pnR2
             // 
+            this.pnR2.BackColor = System.Drawing.Color.PeachPuff;
             this.pnR2.Controls.Add(this.txtID);
             this.pnR2.Controls.Add(this.lbID);
             this.pnR2.Dock = System.Windows.Forms.DockStyle.Top;
@@ -400,6 +409,7 @@
             this.pnR2.Name = "pnR2";
             this.pnR2.Size = new System.Drawing.Size(290, 66);
             this.pnR2.TabIndex = 1;
+            this.pnR2.Paint += new System.Windows.Forms.PaintEventHandler(this.pnR2_Paint);
             // 
             // txtID
             // 
@@ -411,6 +421,7 @@
             // lbID
             // 
             this.lbID.AutoSize = true;
+            this.lbID.BackColor = System.Drawing.Color.PeachPuff;
             this.lbID.Dock = System.Windows.Forms.DockStyle.Top;
             this.lbID.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbID.Location = new System.Drawing.Point(0, 0);
@@ -422,6 +433,7 @@
             // 
             // pnRTop
             // 
+            this.pnRTop.BackColor = System.Drawing.Color.PeachPuff;
             this.pnRTop.Controls.Add(this.lbText);
             this.pnRTop.Dock = System.Windows.Forms.DockStyle.Top;
             this.pnRTop.Location = new System.Drawing.Point(0, 0);
@@ -432,6 +444,7 @@
             // lbText
             // 
             this.lbText.AutoSize = true;
+            this.lbText.BackColor = System.Drawing.Color.PeachPuff;
             this.lbText.Dock = System.Windows.Forms.DockStyle.Fill;
             this.lbText.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbText.Location = new System.Drawing.Point(0, 0);
@@ -489,6 +502,7 @@
             // 
             // lbStaff
             // 
+            this.lbStaff.BackColor = System.Drawing.Color.PeachPuff;
             this.lbStaff.Dock = System.Windows.Forms.DockStyle.Fill;
             this.lbStaff.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbStaff.ForeColor = System.Drawing.Color.Tomato;
@@ -501,6 +515,7 @@
             // 
             // pictureBox1
             // 
+            this.pictureBox1.BackColor = System.Drawing.Color.PeachPuff;
             this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Right;
             this.pictureBox1.Location = new System.Drawing.Point(952, 38);
             this.pictureBox1.Name = "pictureBox1";
