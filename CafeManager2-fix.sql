@@ -63,3 +63,76 @@ CREATE TABLE DangKy (
     SOHOADON INT NOT NULL,                   
     FOREIGN KEY (SOHOADON) REFERENCES HoaDon(SOHOADON)
 );*/
+
+SELECT * FROM NhanVien
+SELECT * FROM Menu
+SELECT * FROM Ban
+SELECT * FROM DangKy
+SELECT * FROM HoaDon
+SELECT * FROM ChiTietHoaDon
+
+-- Delete data 
+DELETE FROM ChiTietHoaDon;
+DELETE FROM HoaDon;
+DELETE FROM DangKy;
+DELETE FROM Ban;
+DELETE FROM Menu;
+DELETE FROM NhanVien;
+
+-- Insert data for NhanVien table
+INSERT INTO NhanVien (MaNV, TENNV, GIOITINH, SDT, HIENTHI)
+VALUES 
+('NV001', N'Nguyễn Văn A', 1, '0123456789', 1),
+('NV002', N'Trần Thị B', 0, '0987654321', 1),
+('NV003', N'Lê Văn C', 1, '0123456780', 1),
+('NV004', N'Phạm Thị D', 0, '0987654320', 1),
+('NV005', N'Hoàng Văn E', 1, '0123456781', 1);
+
+-- Insert data for Menu table
+INSERT INTO Menu (TENMON, GIA, LOAIMON, HINHANH, HIENTHI)
+VALUES 
+(N'Cà phê đen', 25000, N'Cà phê', '', 1),
+(N'Cà phê sữa', 30000, N'Cà phê', '', 1),
+(N'Trà sữa trân châu', 45000, N'Trà sữa', '', 1),
+(N'Bánh tiramisu', 35000, N'Bánh ngọt', '', 1),
+(N'Bánh mì sandwich', 25000, N'Bánh mặn', '', 1);
+
+-- Insert data for Ban table
+INSERT INTO Ban (SOBAN, TINHTRANG)
+VALUES 
+(1, N'Trống'),
+(2, N'Đang sử dụng'),
+(3, N'Trống'),
+(4, N'Đang sử dụng'),
+(5, N'Trống');
+
+-- Insert data for DangKy table
+INSERT INTO DangKy (TenDK, MatKhau, ChucVu, MaNV)
+VALUES 
+('admin', 'admin123', 1, 'NV001'),
+('nhanvien1', 'nv123', 0, 'NV002'),
+('nhanvien2', 'nv123', 0, 'NV003'),
+('nhanvien3', 'nv123', 0, 'NV004'),
+('nhanvien4', 'nv123', 0, 'NV005');
+
+-- Insert data for HoaDon table
+INSERT INTO HoaDon (SOHOADON, NGAYDAT, MaNV, TONGTIEN)
+VALUES 
+(1, GETDATE(), 'NV001', 75000),
+(2, GETDATE(), 'NV002', 45000),
+(3, GETDATE(), 'NV003', 100000),
+(4, GETDATE(), 'NV004', 55000),
+(5, GETDATE(), 'NV005', 80000);
+
+-- Insert data for ChiTietHoaDon table
+INSERT INTO ChiTietHoaDon (SOHOADON, MenuID, SOLUONG)
+VALUES 
+(1, 1, 2),  -- 2 cà phê đen
+(1, 2, 1),  -- 1 cà phê sữa
+(2, 3, 1),  -- 1 trà sữa trân châu
+(3, 4, 2),  -- 2 bánh tiramisu
+(3, 5, 1),  -- 1 bánh mì sandwich
+(4, 1, 1),  -- 1 cà phê đen
+(4, 2, 1),  -- 1 cà phê sữa
+(5, 3, 1),  -- 1 trà sữa trân châu
+(5, 4, 1);  -- 1 bánh tiramisu
